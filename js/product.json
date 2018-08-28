@@ -1,0 +1,16 @@
+{
+	"recommend":[
+	            	{"pid":"1001","name":"汤臣倍健 针叶樱桃果味糖果片","imgsrc":"img/7c8be2deec63b3a0.jpg","price":"￥98.00","oldprice":"￥63.70"},
+	            	{"pid":"1002","name":"汤臣倍健乳清蛋白粉固体饮料香草味","imgsrc":"img/dced81e32bce92eb.jpg","price":"￥348.00","oldprice":"￥226.20"},
+	            	{"pid":"1003","name":"汤臣倍健乳矿物盐压片糖果","imgsrc":"img/fb88755835afddb9.jpg","price":"￥98.00","oldprice":"￥63.70"},
+	            	{"pid":"1004","name":"汤臣倍健叶酸亚铁片","imgsrc":"img/93c3595b41f6d12b.jpg","price":"￥148.00","oldprice":"￥96.20"}
+	            	
+	            	
+	            ],
+    "quality":[
+                {"pid":"1005","name":"汤臣倍健多种维生素咀嚼片(儿童型)","imgsrc":"img/9a9eb0bdfd6a8349.jpg","price":"￥118.00","oldprice":"￥76.70"},
+	            {"pid":"1006","name":"汤臣倍健多种维生素咀嚼片（青少年型)","imgsrc":"img/7d82120d768e3acb.jpg","price":"￥118.00","oldprice":"￥76.70"},
+	            {"pid":"1007","name":"汤臣倍健多种维生素矿物质片(孕妇型)","imgsrc":"img/0f1323dbe96478b7.jpg","price":"￥188.00","oldprice":"￥122.20"},
+	            {"pid":"1008","name":"汤臣倍健多种维生素矿物质片(男士型)","imgsrc":"img/2dab4c24db3400bf.jpg","price":"￥128.00","oldprice":"￥83.20"}
+              ]
+}

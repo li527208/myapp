@@ -1,0 +1,687 @@
+/*主体部分页面*/
+#subject{
+	width: 100%;
+	height: 2260px;
+	/*background: red;*/
+}
+.carousel{
+	width: 1210px;
+	height: 455px;
+	/*background: salmon;*/
+	margin: 5px auto 0;
+}
+.slideshow{
+	width: 786px;
+	height: 298px;
+	float: left;
+	border: 1px solid #e8e8e8;
+	margin-left: 210px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+.slideshow_box{
+	width: 3950px;
+	height: 298px;
+	/*background: magenta;*/
+}
+.slideshow_box div{
+	width: 786px;
+	height: 298px;
+	float: left;
+}
+.slideshow_box img{
+	width: 786px;
+	height: 298px;
+}
+/*轮播图下标*/
+.box_index{
+	width: 120px;
+	height: 20px;
+	/*background: lawngreen;*/
+	position: absolute;
+	bottom: 12px;left: 42%;
+}
+.box_index li{
+	width: 15px;
+	height: 15px;
+	background: #afb1ac;
+	float: left;
+	margin-left: 8px;
+	cursor: pointer;
+}
+.hue{background: #ec3346 !important;}
+/*左右按钮*/
+.around span{display: none;}
+.retreat{
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url(../img/index.png)no-repeat;
+	position: absolute;
+	top: 50%;left: 8px;
+	margin-top: -20px;	
+	opacity: 0.3;
+}
+.advance{
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url(../img/index.png)no-repeat 0 -45px;
+	position: absolute;
+	top: 50%;right: 8px;
+	margin-top: -20px;	
+	opacity: 0.3;
+}
+/*鼠标经过图片按钮出现*/
+.slideshow:hover .around span{display: block;}
+.around span:hover{opacity: 1;}
+
+
+/*右边打折部分*/
+.carousel .discount{float: right;}
+.discount{
+	width: 200px;
+	height: 274px;
+/*	background: violet;*/
+	border: 1px solid #e8e8e8;
+	position: relative;
+}
+.discount>ul{
+	width: 198px;
+	height: 37px;
+	background: white;
+	border: 1px solid #e8e8e8;
+	position: absolute;
+	top: 117px;
+}
+.discount>ul li{
+	width: 66px;
+	height: 29px;
+	line-height: 29px;
+	font-size: 14px;
+	float: left;
+	color: #606060;
+	text-align: center;
+	background: #f7f7f7;
+	cursor: pointer;
+}
+.up{
+	width: 199px;
+	height: 117px;
+	border: 1px solid #e8e8e8;
+}
+.below{
+	width: 199px;
+	height: 117px;
+	border: 1px solid #e8e8e8;
+	position: absolute;
+	top: 155px;
+}
+.cate{
+	width: 786px;
+	height: 156px;
+	background: navy;
+	border: 1px solid #e8e8e8;
+	position: absolute;
+	margin: 298px 0 0 210px;
+}
+.cate li{
+	float: left;
+	cursor: pointer;
+}
+.cate li img{
+	width: 262px;
+	height: 156px;
+}
+
+/*每日精彩*/
+.everyday{
+	width: 1210px;
+	height: 465px;
+	/*background: darkviolet;*/
+	margin: 20px auto 0;
+}
+.everyday>p{font-weight: bold;}
+.brand{
+	width: 1210px;
+	height: 430px;
+	background: #eaeaea;
+	margin-top: 14px;
+	border-top: 3px solid #318700;
+}
+.brand ul li{
+	border: 1px solid #e8e8e8;
+	cursor: pointer;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.brand ul li:hover div{opacity: 0.5;background: white;}
+.brand ul li div{
+	position: absolute;
+	top: 0;
+	width: 290px;
+	height: 210px;
+}
+/*名品特卖*/
+.special{
+	width: 1210px;
+	height: 80px;
+	margin: 20px auto 25px;
+}
+/*进口食品*/
+.import{
+	width: 1210px;
+	height: 485px;
+	/*background: violet;*/
+	margin: 0 auto;
+}
+.guide{
+	width: 1210px;
+	height: 38px;
+	/*background: red;*/
+	border-bottom: 1px solid #89b817;
+	margin: 0 auto;
+	position: relative;
+}
+.guide>span{
+	display: block;
+	width: 208px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-weight: bold;
+	/*background: blue;*/
+	position: relative;
+}
+.guide>span>b{
+	display: block;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	background: url(../img/floor_bg.png)no-repeat 0 -80px;
+	position: absolute;
+	top: 3px;left: 33px;
+}
+.guide>ul{
+	width: 790px;
+	height: 38px;
+	/*background: saddlebrown;*/
+	position: absolute;
+	top: 0;left: 208px;
+}
+.guide>ul li{
+	line-height: 38px;
+	float: left;
+	padding: 0 30px;
+	cursor: pointer;
+	background: white;
+	/*color: #5d5d5d;*/
+}
+.frame{border: 1px solid #89b817; color: #89b817;}
+.guide>ul .hide{
+	color: #89b817;
+	border: 1px solid #89b817;
+	border-bottom: none;
+}
+/*.guide>ul li:hover{
+	color: #89b817;
+	border: 1px solid #89b817;
+	border-bottom: none;
+}*/
+.guide>div{
+	width: 212px;
+	line-height: 38px;
+	text-align: center;
+	position: absolute;
+	right: 0;top: 0;
+	color: #89b817;
+}
+.import_rank{
+	width: 1210px;
+	height: 447px;
+	/*background: magenta;*/
+}
+.import_rank div{float: left;}
+/*进口左部分*/
+.rank_left{
+	width: 208px;
+	height: 447px;
+	/*background: red;*/
+	position: relative;
+}
+.figure{
+	position: absolute;
+	left: -46.5px;
+	cursor: pointer;
+}
+.kind{
+	width: 208px;
+	height: 97px;
+	background: #89b817;
+	position: absolute;
+	top: 219px;
+}
+.kind a{
+	line-height: 32px;
+	font-size: 13px;
+	color: white;
+	margin-left: 25px;
+}
+.kind a:nth-of-type(5){
+	padding-right: 14px;
+}
+.kind a:hover{text-decoration: underline;}
+.knowledge{
+	width: 208px;
+	height: 131px;
+	background: #89b817;
+	position: absolute;
+	top: 316px;
+}
+.knowledge>p{
+	width: 208px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 17px;
+	background: #599c0a;
+	font-weight: bold;
+	color: white;
+}
+.knowledge a{
+	line-height: 30px;
+	font-size: 13px;
+	margin-left: 25px;
+	color: white;
+}
+.knowledge a:hover{text-decoration: underline;}
+
+/*进口中间部分*/
+.rank_middle{
+	width: 800px;
+	height: 447px;
+	/*background: maroon;*/
+}
+.rank_middle>ul>li{
+	float: left;
+	width: 199px;
+	height: 222px;
+	border-bottom: 1px solid #F4F4F4;
+	border-right: 1px solid #F4F4F4;
+	background: white;
+	position: relative;
+}
+.rank_middle>ul>li>img{
+	position: absolute;
+	left: 17px;
+	cursor: pointer;
+}
+.rank_middle>ul>li>h6{
+	width: 180px;
+	position: absolute;
+	bottom: 25px;
+	text-indent: 1em;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.rank_middle>ul>li>h6>a{color: #333333;}
+.rank_middle>ul>li>h6>a:hover{text-decoration: underline;color: red;}
+.rank_middle>ul>li>ul>li{
+	float: left;
+	font-size: 12px;
+	margin-top: 200px;
+	text-indent: 1em;
+}
+.rank_middle>ul>li>ul>li:nth-of-type(1){text-decoration: line-through;}
+.rank_middle>ul>li>ul>li:nth-of-type(2){
+	font-weight: bold;
+	color: #d31223;
+}
+
+
+
+/*进口右部分*/
+.rank_right{
+	width: 201px;
+	height: 447px;
+	/*background: salmon;*/
+	border-bottom: 1px solid #F4F4F4;
+	border-right: 1px solid #F4F4F4;
+}
+.rank_right>ul{
+	width: 200px;
+	height: 35px;
+	background: #f7f7f7;
+}
+.rank_right>ul>li{
+	width: 99px;
+	line-height: 35px;
+	float: left;
+	font-size: 15px;
+	text-align: center;
+	cursor: pointer;
+}
+.rank_right>ul>li:nth-of-type(1){
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.rank_right>ul>li:nth-of-type(2){
+	color: #599c0a;
+	background: white;
+}
+.rank_right>ul>li:nth-of-type(1):hover{
+	border-bottom:none;
+	border-right: none;
+	color: #599c0a;
+	background: white;
+}
+.rank_right>ul>li:nth-of-type(1):hover+li:nth-of-type(2){
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	color: black;
+	background: #f7f7f7;
+}
+.rank_right>ul>li:nth-of-type(2):hover{
+	border-bottom: none;
+	border-left: none;
+	
+}
+/*生鲜蔬果*/
+.fruit{
+	width: 1210px;
+	height: 485px;
+	/*background: violet;*/
+	margin: 20px auto 0;
+}
+.fresh{
+	width: 1210px;
+	height: 38px;
+	/*background: red;*/
+	border-bottom: 1px solid #fda804;
+	margin: 0 auto;
+	position: relative;
+}
+.fresh>span{
+	display: block;
+	width: 208px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-weight: bold;
+	/*background: blue;*/
+	position: relative;
+}
+.fresh>span>b{
+	display: block;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	background: url(../img/floor_bg.png)no-repeat 0 -40px;
+	position: absolute;
+	top: 3px;left: 33px;
+}
+.fresh>ul{
+	width: 790px;
+	height: 38px;
+	/*background: saddlebrown;*/
+	position: absolute;
+	top: 0;left: 208px;
+}
+.fresh>ul li{
+	line-height: 38px;
+	float: left;
+	padding: 0 30px;
+	cursor: pointer;
+	background: white;
+	/*color: #5d5d5d;*/
+}
+/*.domestic{border: 1px solid #fda804; color: #fda804;}*/
+.fresh>ul .domestic{
+	color: #fda804;
+	border: 1px solid #fda804;
+	border-bottom: none;
+}
+.fresh>div{
+	width: 212px;
+	line-height: 38px;
+	text-align: center;
+	position: absolute;
+	right: 0;top: 0;
+	color: #fda804;
+}
+.fruit_rank{
+	width: 1210px;
+	height: 447px;
+	/*background: magenta;*/
+}
+.fruit_rank div{float: left;}
+/*蔬果左部分*/
+.fresh_left{
+	width: 208px;
+	height: 447px;
+	/*background: red;*/
+	position: relative;
+}
+.fresh_logo{
+	position: absolute;
+	left: -46.5px;
+	cursor: pointer;
+}
+.fresh_kind{
+	width: 208px;
+	height: 97px;
+	background: #fda804;
+	position: absolute;
+	top: 219px;
+}
+.fresh_kind a{
+	line-height: 32px;
+	font-size: 13px;
+	color: white;
+	margin-left: 25px;
+}
+.fresh_kind a:nth-of-type(5){
+	padding-right: 14px;
+}
+.fresh_kind a:hover{text-decoration: underline;}
+.fresh_knowledge{
+	width: 208px;
+	height: 131px;
+	background: #fda804;
+	position: absolute;
+	top: 316px;
+}
+.fresh_knowledge>p{
+	width: 208px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 17px;
+	background: #f68003;
+	font-weight: bold;
+	color: white;
+}
+.fresh_knowledge a{
+	line-height: 30px;
+	font-size: 13px;
+	margin-left: 25px;
+	color: white;
+}
+.fresh_knowledge a:hover{text-decoration: underline;}
+
+/*蔬果中间部分*/
+.fresh_middle{
+	width: 800px;
+	height: 447px;
+	/*background: maroon;*/
+	overflow: hidden;
+}
+
+.sec{
+	width: 800px;
+	height: 447px;
+	/*display: none;*/
+	}
+.fresh_middle>div>ul>li{
+	float: left;
+	width: 199px;
+	height: 222px;
+	border-bottom: 1px solid #F4F4F4;
+	border-right: 1px solid #F4F4F4;
+	background: white;
+	position: relative;
+}
+.fresh_middle>div>ul>li>img{
+	position: absolute;
+	left: 17px;
+	cursor: pointer;
+}
+.fresh_middle>div>ul>li>h6{
+	width: 180px;
+	position: absolute;
+	bottom: 25px;
+	text-indent: 1em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.fresh_middle>div>ul>li>h6>a{color: #333333;}
+.fresh_middle>div>ul>li>h6>a:hover{text-decoration: underline;color: red;}
+.fresh_middle>div>ul>li>ul>li{
+	float: left;
+	font-size: 12px;
+	margin-top: 200px;
+	text-indent: 1em;
+}
+.fresh_middle>div>ul>li>ul>li:nth-of-type(1){text-decoration: line-through;}
+.fresh_middle>div>ul>li>ul>li:nth-of-type(2){
+	font-weight: bold;
+	color: #d31223;
+}
+
+
+
+/*蔬果右部分*/
+.fresh_right{
+	width: 200px;
+	height: 447px;
+	/*background: salmon;*/
+	border-bottom: 1px solid #F4F4F4;
+	border-right: 1px solid #F4F4F4;
+}
+.fresh_right>ul{
+	width: 200px;
+	height: 35px;
+	background: #f7f7f7;
+}
+.fresh_right>ul>li{
+	width: 99px;
+	line-height: 35px;
+	float: left;
+	font-size: 15px;
+	text-align: center;
+	cursor: pointer;
+}
+.fresh_right>ul>li:nth-of-type(1){
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.fresh_right>ul>li:nth-of-type(2){
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+.fresh_right>ul>li:nth-of-type(1):hover{
+	border-bottom:none;
+	border-right: none;
+	color: #fda804;
+	background: white;
+}
+.fresh_right>ul>li:nth-of-type(2):hover{
+	border-bottom: none;
+	border-left: none;
+	color: #fda804;
+	background: white;
+}
+.details{
+	width: 200px;
+	height: 405px;
+	/*background: salmon;*/
+	overflow: hidden;
+	/*position: relative;*/
+}
+.details .coat>li{
+	width: 200px;
+	/*height: 35px;*/
+	/*line-height: 35px;*/
+	/*border-bottom: 1px solid #ccc;*/
+	font-size: 12px;
+	background: white;
+	/*margin-top: 10px;*/
+}
+.details .coat>li>span{
+	display: block;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	background: url(../img/2.gif)no-repeat;
+	float: left;
+	/*margin-top: 10px;*/
+}
+/*.details .coat>li>p{
+	display: block;
+	float: right;
+}*/
+
+/*.details .coat>li .reveal{display: block;}
+.details .coat>li>ul{display: none;}
+.details .coat>li>ul{
+	width: 200px;
+	height: 180px;
+	background: white;
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+	margin-top: -26px;
+}
+.details .coat>li>ul>img{
+	width: 145px;
+	height: 115px;
+	border: 1px solid #ccc;
+	position: absolute;
+	left: 28px;
+	cursor: pointer;
+}
+.details .coat>li>ul>img:hover+a{
+	color: red;
+	text-decoration: underline;
+}
+.details .coat>li>ul>a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.details .coat>li>ul>a{
+	position: absolute;
+	top: 120px;left: 55px;
+	color: black;
+}
+.details .coat>li>ul>b{
+	position: absolute;
+	top: 145px;left: 78px;
+	color: #ff7f00;
+}
+.details .coat>li>ul>span{
+	display: block;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	background: url(../img/1.gif)no-repeat;
+	position: absolute;
+	left: 10px;top: 0px;
+	color: white;
+}*/

@@ -1,0 +1,190 @@
+#footer{
+	width: 100%;
+	height: 574px;
+	/*background: salmon;*/
+	margin: 30px auto 0;
+}
+.minute{
+	width: 1210px;
+	height: 275px;
+	margin: 0 auto;
+	/*background: violet;*/
+}
+.minute_up{
+	width: 1198px;
+	height: 68px;
+	border: 1px solid #999999;
+	padding: 5px;
+}
+.minute_up img{
+	width: 1200px;
+	height: 70px;
+}
+.minute_down{
+	width: 1210px;
+	height: 195px;
+	/*background: maroon;*/
+}
+.minute_down div{
+	float: left;
+}
+.down_left{
+	width: 235px;
+	height: 195px;
+	/*background: aqua;*/
+	position: relative;
+}
+.down_left img{
+	position: absolute;
+	top: 20px;left: 30px;
+}
+.down_right{
+	width: 975px;
+	height: 195px;
+	/*background: blue;*/
+}
+.direct>li{
+	float: left;
+	width: 180px;
+	height: 195px;
+	position: relative;
+}
+.direct .direct_start>i{
+	display: block;
+	width: 19px;
+	height: 19px;
+	background: url(../img/base.png)no-repeat;
+	position: absolute;
+	left: -10px;top: 20px;
+}
+.direct .direct_shop>i{
+	display: block;
+	width: 19px;
+	height: 19px;
+	background: url(../img/base.png)no-repeat 0 -29px;
+	position: absolute;
+	left: -10px;top: 20px;
+}
+.direct .direct_pay>i{
+	display: block;
+	width: 19px;
+	height: 19px;
+	background: url(../img/base.png)no-repeat 0 -59px;
+	position: absolute;
+	left: -10px;top: 20px;
+}
+.direct .direct_clause>i{
+	display: block;
+	width: 19px;
+	height: 19px;
+	background: url(../img/base.png)no-repeat 0 -89px;
+	position: absolute;
+	left: -10px;top: 20px;
+}
+.direct li>span{
+	color: #606060;
+	position: absolute;
+	top: 18px;left: 20px;
+}
+.direct li>ul{
+	height: 145px;
+	border-left: 1px solid #9c9c9c;
+	position: absolute;
+	top: 50px;
+}
+.direct .direct_clause>ul{
+	height: 60px;
+	border-left: 1px solid #9c9c9c;
+	position: absolute;
+	top: 50px;
+}
+.direct li>ul>li{
+	width: 180px;
+	height: 28px;
+	line-height: 28px;
+	text-indent: 1em;
+}
+.direct li>ul>li>a{
+	font-size: 12px;
+	color: #9c9c9c;
+}
+.direct li>ul>li>a:hover{
+	text-decoration: underline;
+	color: #6dac1b;
+}
+.gay{
+	width: 100%;
+	height: 298px;
+	/*background: red;*/
+	border-top: 1px solid #AFB1AC;
+}
+.gay_box{
+	width: 1210px;
+	height: 298px;
+	/*background: blue;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.gay_box>ul{
+	width: 280px;
+	line-height: 20px;
+	margin: 30px auto 0;
+}
+.gay_box>ul>li{
+	float: left;
+	margin-right: 15px;
+	}
+.gay_box>ul>li>a{
+	color: black;
+	font-size: 12px;
+}
+.gay_box>ul>li>a:hover{
+	text-decoration: underline;
+}
+.health{
+	width: 200px;
+	line-height: 20px;
+	/*background: maroon;*/
+	margin-top: 60px;
+}
+.health>a{
+	font-size: 12px;
+	color: black;
+}
+.health>a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.mode{
+	width: 1210px;
+	height: 217px;
+	margin: 0 auto;
+}
+.mode>div{
+	width: 980px;
+	height: 95px;
+	margin: 20px auto 0;
+}
+.mode>ul{
+	width: 700px;
+	height: 95px;
+	margin: 5px auto 0;
+	text-align: center;
+	font-size: 12px;
+	color: #666666;
+}
+.mode>ul>li>a{color: #666666;}
+.mode>ul>li>a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.mode>ul>li>span{
+	display: block;
+	width: 38px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	background: #ff7043;
+	cursor: pointer;
+	margin: 0 auto;
+}
